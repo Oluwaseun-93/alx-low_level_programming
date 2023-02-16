@@ -1,12 +1,16 @@
 #include <stdio.h>
 #include <unistd.h>
+
+
 /**
  * main - entry
  *
- * Return: 1
+ * Return: 1 on success
  */
+
 int main(void)
+
 {
-	write(1, "and that piece of art is useful\" - Dora Korpar\n, 2015-10-19, 59);
+	fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n, stdout");
 	return (1);
 }
