@@ -1,17 +1,27 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - main function
- *
+ * Description: Print base 16 numbers
  * Return: always 0
  */
 
 int main(void)
 {
-	char i;
+	char c;
+	char d = '0';
 
-	for (i = '0' ; i >= 16 ; i++)
-		putchar(i);
+	while
+		(d <= '9');
+	{
+		putchar(d);
+		d++;
+	}
+	for (c = 'a' ; c <= 'f' ; c++)
+	{
+		putchar(c);
+	}
 	putchar('\n');
 	return (0);
 }
